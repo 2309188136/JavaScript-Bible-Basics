@@ -58,11 +58,11 @@
 //  * 
 //  * Use "const" for object declaration
 //  */
-// const myObject = {};
+const myObject = {};
 
 // myObject.a = true; // NO ERROR! Variable is not reassigned
 
-// console.log(myObject);
+console.log(myObject);
 
 // myObject = {
 //   a: true
