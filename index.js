@@ -64,6 +64,27 @@ const myObject = {};
 
 console.log(myObject);
 
+myObject1 = {x:2, y:true};
+myObject1.x=3;
+
+const mycity = {
+    city: "New York",
+    popular: true,
+    country: "USA",
+    infor:{
+        address: "parkway dr"
+    },
+    cityGreeting: function () {
+        console.log("Greetings");
+    }
+
+};
+mycity.cityGreeting();
+
+delete mycity.country;
+
+mycity["popular"] = true;
+
 // myObject = {
 //   a: true
 // }; // Uncaught TypeError: Assignment to constant variable.
